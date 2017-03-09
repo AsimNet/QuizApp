@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">الاختبار</string>
-    <string name="Q1">ماهي اللغة المستخدمة في تطوير تطبيقات الآنرويد؟آ</string>
-    <string name="Q2">\'.MOV\' صيغة ملفات لعرض</string>
+    <string name="Q1">ماهي اللغة المستخدمة في تطوير تطبيقات الآندرويد؟</string>
+    <string name="Q2"> :\'.MOV\' صيغة ملفات لعرض</string>
     <string name="Q2A1">صورة</string>
     <string name="Q2A2">صوت</string>
     <string name="Q2A3">صورة متحركة/فيديو</string>
@@ -10,4 +10,9 @@
     <string name="Q3A1">"مثال: 9.0"</string>
     <string name="Q4">اختر الاجابات الصحيحة حول آندرويد</string>
     <string name="submit">موافق</string>
+    <string name="scoreStarting">حصلت على</string>
+    <string name="scoreEnding">من 4</string>
+    <string name="Q4A1">آندرويد 5 يسمى لولي بوب</string>
+    <string name="Q4A2">آندرويد 6 يسمى آيسكريم ساندويتش</string>
+    <string name="Q4A3">"آندرويد 7 يسمى نوقآ "</string>
 </resources>

@@ -34,16 +34,19 @@
                 <RadioButton
                     android:id="@+id/Q1A1"
                     style="@style/RadioButton"
+                    android:checkedButton="1"
                     android:text="@string/Q1A1" />
 
                 <RadioButton
                     android:id="@+id/Q1A2"
                     style="@style/RadioButton"
+                    android:checkedButton="2"
                     android:text="@string/Q1A2" />
 
                 <RadioButton
                     android:id="@+id/Q1A3"
                     style="@style/RadioButton"
+                    android:checkedButton="3"
                     android:text="@string/Q1A3" />
             </RadioGroup>
         </LinearLayout>
@@ -69,16 +72,19 @@
                 <RadioButton
                     android:id="@+id/Q2A1"
                     style="@style/RadioButton"
+                    android:checkedButton="1"
                     android:text="@string/Q2A1" />
 
                 <RadioButton
                     android:id="@+id/Q2A2"
                     style="@style/RadioButton"
+                    android:checkedButton="2"
                     android:text="@string/Q2A2" />
 
                 <RadioButton
                     android:id="@+id/Q2A3"
                     style="@style/RadioButton"
+                    android:checkedButton="3"
                     android:text="@string/Q2A3" />
             </RadioGroup>
         </LinearLayout>
@@ -102,7 +108,10 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/Q3A1"
                 android:textColor="@color/textColor"
-                android:textColorHint="@color/textColor" />
+                android:textColorHint="@color/textColor"
+                android:lines="1"
+                android:inputType="numberDecimal"
+                android:imeOptions="actionDone"/>
 
         </LinearLayout>
 
@@ -135,12 +144,12 @@
                 style="@style/RadioButton"
                 android:text="@string/Q4A3" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:onClick="submitQuiz"
-                android:text="@string/submit" />
         </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="submitQuiz"
+            android:text="@string/submit" />
     </LinearLayout>
 </ScrollView>

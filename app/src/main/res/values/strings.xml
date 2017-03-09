@@ -11,8 +11,10 @@
     <string name="Q3">what is the latest version of android?</string>
     <string name="Q3A1">ex: 9.0</string>
     <string name="Q4">Select all true statments about Android</string>
-    <string name="Q4A1" translatable="false">Android V5 called lollipop</string>
-    <string name="Q4A2" translatable="false">Android V6 called ice cream sandwich</string>
-    <string name="Q4A3" translatable="false">Android V7 called Nougat</string>
+    <string name="Q4A1">Android V5 called lollipop</string>
+    <string name="Q4A2">Android V6 called ice cream sandwich</string>
+    <string name="Q4A3">Android V7 called Nougat</string>
     <string name="submit">Submit</string>
+    <string name="scoreStarting">You got</string>
+    <string name="scoreEnding">out of 4</string>
 </resources>
