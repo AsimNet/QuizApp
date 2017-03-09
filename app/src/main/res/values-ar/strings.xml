@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الاختبار</string>
+    <string name="Q1">ماهي اللغة المستخدمة في تطوير تطبيقات الآنرويد؟آ</string>
+    <string name="Q2">\'.MOV\' صيغة ملفات لعرض</string>
+    <string name="Q2A1">صورة</string>
+    <string name="Q2A2">صوت</string>
+    <string name="Q2A3">صورة متحركة/فيديو</string>
+    <string name="Q3">كم رقم آخر إصدار من آندرويد؟</string>
+    <string name="Q3A1">"مثال: 9.0"</string>
+    <string name="Q4">اختر الاجابات الصحيحة حول آندرويد</string>
+    <string name="submit">موافق</string>
+</resources>

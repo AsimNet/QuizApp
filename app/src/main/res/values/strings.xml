@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Quiz</string>
+    <string name="Q1">What language is used to develop Android apps?</string>
+        <string name="Q1A1" translatable="false">Swift</string>
+        <string name="Q1A2" translatable="false">Java</string>
+        <string name="Q1A3" translatable="false">Javascript</string>
+    <string name="Q2">\'.MOV\' extension refers usually to what kind of file?</string>
+    <string name="Q2A1">Image file</string>
+    <string name="Q2A2">Audio file</string>
+    <string name="Q2A3">Animation/movie file</string>
+    <string name="Q3">what is the latest version of android?</string>
+    <string name="Q3A1">ex: 9.0</string>
+    <string name="Q4">Select all true statments about Android</string>
+    <string name="Q4A1" translatable="false">Android V5 called lollipop</string>
+    <string name="Q4A2" translatable="false">Android V6 called ice cream sandwich</string>
+    <string name="Q4A3" translatable="false">Android V7 called Nougat</string>
+    <string name="submit">Submit</string>
 </resources>

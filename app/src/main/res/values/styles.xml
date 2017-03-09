@@ -5,7 +5,32 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/textColor</item>
     </style>
 
+    <style name="QuestionsCardBase">
+        <item name="android:background">@color/colorQuestionBase</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+    </style>
+    <style name="QuestionsCardContrast" parent="QuestionsCardBase">
+        <item name="android:background">@color/colorQuestionContrast</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:buttonTint">@color/textColor</item>
+    </style>
+    <style name="questionsText">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
 </resources>
