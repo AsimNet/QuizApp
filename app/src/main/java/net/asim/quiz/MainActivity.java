@@ -60,10 +60,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void submitQuiz(View view) {
         int score = this.calculateScore();
+        if (score == 4) {
+            Toast.makeText(MainActivity.this, (getResources().getString(R.string.awesome)), Toast.LENGTH_SHORT).show();
+        } else {
+            String startStatment = getResources().getString(R.string.scoreStarting);
+            String EndingStatment = getResources().getString(R.string.scoreEnding);
 
-        String startStatment = getResources().getString(R.string.scoreStarting);
-        String EndingStatment = getResources().getString(R.string.scoreEnding);
-
-        Toast.makeText(MainActivity.this, (startStatment + " " + score + " " + EndingStatment), Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, (startStatment + " " + score + " " + EndingStatment), Toast.LENGTH_SHORT).show();
+        }
     }
 }
