@@ -13,6 +13,7 @@ import android.widget.Toast;
 import butterknife.BindInt;
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.Q4A2) CheckBox Q4A2;
     @BindView(R.id.Q4A3) CheckBox Q4A3;
 
-    int calculateScore() {
+    private int calculateScore() {
         int score = 0;
 
         //check Question1:
@@ -71,7 +72,8 @@ public class MainActivity extends AppCompatActivity {
         return score;
     }
 
-    public void submitQuiz(View view) {
+    @OnClick(R.id.submit)
+    public void submitQuiz() {
         int score = this.calculateScore();
 
         if (score == 4) {

@@ -146,10 +146,10 @@
 
         </LinearLayout>
         <Button
+            android:id="@+id/submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:onClick="submitQuiz"
             android:text="@string/submit" />
     </LinearLayout>
 </ScrollView>
