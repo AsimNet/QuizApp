@@ -17,4 +17,6 @@
     <string name="submit">Submit</string>
     <string name="scoreStarting">You got</string>
     <string name="scoreEnding">out of 4</string>
+    <string name="awesome">Awesome, you got 4 out of 4</string>
+
 </resources>
